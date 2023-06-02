@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AdminDash from "./Pages/admin/AdminDash";
+import Members from "./Pages/members/Members";
+import Developers from "./Pages/developers/Developers";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header">Header</header>
+      {/* <Members /> */}
+      {/* <AdminDash /> */}
+      <Developers />
     </div>
   );
 }
